@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
+   <!-- <style type="text/css"></style>-->
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+<body>
+<audio controls hidden="hidden" autoplay="autoplay" loop>
+    <source src="bb.mp3" type="audio/mpeg" />
+</audio>
+<!--navbar-inverse-->
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#"><b>个人相册</b></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">首页<span class="sr-only">(current)</span></a></li>
+                <li><a href="introduce.html">相册介绍<span class="sr-only">(current)</span></a></li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">相册分类<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">私人照</a></li>
+                        <li><a href="#">集体照</a></li>
+                        <li><a href="#">情侣照</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">偶像私照</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="navbar-form navbar-right" role="search">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="账号">
+                    <input type="text" class="form-control" placeholder="密码">
+                </div>
+                <button type="submit" class="btn btn-warning">登录</button>
+                <button type="button" class="btn btn-success" onclick="location.href='register01.html'">注册</button>
+            </form>
+
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<!--自适应布局-->
+<div class="container-fluid">
+
+            <!--滚动内容-->
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="images/mo.jpg"   alt="1 slide">
+                        <div class="carousel-caption">
+                            <p></p>
+                            <p><a class="btn btn-lg btn-primary" href="http://www.google.cn/intl/zh-CN/chrome/browser/"
+                                  role="button" target="_blank">点我查看高清大图</a></p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/b2.jpg" alt="2 slide">
+                        <div class="carousel-caption">
+                            <p><a class="btn btn-primary" role="button" target="_blank" href="http://www.firefox.com.cn/download/">点我查看高清大图</a></p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/b3.jpg" alt="3 slide">
+                        <div class="carousel-caption">
+                            <p><a class="btn btn-lg btn-primary" href="http://www.apple.com/cn/safari/" target="_blank"
+                                  role="button">点我查看高清大图</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">上一页</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">下一页</span>
+                </a>
+            </div>
+        </div>
+
+<!--中间部分-->
+     <div id="center">
+          <div class="center01">
+              <a href="" class="look">查看高清大图 <span>请关注我</span></a>
+              <p class="font">小y相册 5.0<a href="" >点我下载</a></p>
+              <span class="font1">会让你发现更多美图美景美人</span>
+              <a href="" class="attention"></a>
+              <span class="care">关注</span>
+          </div>
+
+     </div>
+<!-- 图片展示部分-->
+     <div id="photo">
+          <img class="pic  img-rounded pic1" src="images/p2.jpg">
+          <img class="pic img-circle pic1" src="images/p3.jpg">
+          <img class="pic pic1" src="images/p4.jpg">
+          <img class="pic img-circle" src="images/p5.jpg">
+          <img class="pic pic1" src="images/p6.jpg">
+          <img class="pic img-circle" src="images/p7.jpg">
+          <img class="pic pic1" src="images/p8.jpg">
+          <img class="pic img-circle" src="images/p9.jpg">
+          <img class="pic pic9 " src="images/p10.jpg">
+       </div>
+
+<!-- 图片展示部分结束-->
+<!--tab部分-->
+     <div id="list-tab">
+        <div class="list-left">
+                <p class="title">
+                    让你更加清楚相册主人的信息
+                </p>
+            <div class="img">
+                  <img src="images/me.png">
+            </div>
+            <div class="img-name">小y么么哒</div>
+            <div class="name-info">梦想是找到传说中的ONE PIECE，成为女屌丝。性格积极乐观，爱憎分明且十分重视伙伴，对任何危险的事物都超感兴趣</div>
+        </div>
+
+        <div class="tab-right">
+            <!--可切换标签-->
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist" id="tab-list">
+                <li role="presentation" class="active"><a href="#tab-chrome" aria-controls="home" role="tab" data-toggle="tab">姓名</a></li>
+                <li role="presentation"  ><a href="#tab-firefox" aria-controls="profile" role="tab" data-toggle="tab">爱好</a></li>
+
+                <li role="presentation"><a href="#tab-safari" aria-controls="settings" role="tab" data-toggle="tab">偶像</a></li>
+                <li role="presentation"><a href="#tab-opera" aria-controls="messages" role="tab" data-toggle="tab">美食</a></li>
+                <li role="presentation"><a href="#tab-ie" aria-controls="settings" role="tab" data-toggle="tab">旅游</a></li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="tab-chrome">
+                    <div class="row feature">
+                        <div class="col-md-7">
+
+                            <h2 class="feature-heading">小y <span>
+                                    class="text-muted">害羞的小y么么哒</span></h2>
+
+                            <p class="lead">目前就读江西理工大学南昌校区，是班上的一个小小人物，不善交流，不善表达，内向腼腆，希望找到更多理解她的朋友。</p>
+                        </div>
+                        <div class="col-md-5">
+                            <img class="feature-image img-responsive" src="images/me.png"
+                                 alt="Chrome">
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane " id="tab-firefox">
+                    <div class="row feature">
+                        <div class="col-md-5">
+                            <img class="feature-image img-responsive" src="images/麦.jpg"
+                                 alt="Firefox">
+                        </div>
+                        <div class="col-md-7">
+
+                            <h2 class="feature-heading">爱好<span class="text-muted">许多的爱好</span>
+                            </h2>
+
+                            <p class="lead">喜欢唱歌，可是歌总是唱不好，也喜欢运动，不过现在太自恋了，爱上自拍，并喜欢买便宜的衣服来装饰自己</p>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="tab-safari">
+                    <div class="row feature">
+                        <div class="col-md-5">
+                            <img class="feature-image img-responsive" src="images/chen.jpg"
+                                 alt="Opera">
+                        </div>
+                        <div class="col-md-7">
+
+                            <h2 class="feature-heading">偶像<span class="text-muted">陈伟霆欧巴</span>
+                            </h2>
+
+                            <p class="lead">陈伟霆（William Chan），1985年11月21日出生于中国香港，香港流行男歌手、演员、主持人。2003年因参加全球华人新秀香港区选拔赛而进入演艺圈。2006年成为Sun Boy’z组合一员。2008年独立发展，同年推出首张个人专辑《Will Power》，并获香港十大劲歌金曲颁奖礼“最受欢迎男新人金奖”
+                                、香港十大中文金曲“最有前途新人金奖”。2013年出演灾难电影《救火英雄》，获澳门国际电影节最佳男配角奖项。</p>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="tab-opera">
+                    <div class="row feature">
+                        <div class="col-md-7">
+
+                            <h2 class="feature-heading">美食 <span class="text-muted">最爱甜食，尤其冰淇淋</span></h2>
+
+                            <p class="lead">冰淇淋是以饮用水、牛乳、奶粉、奶油（或植物油脂）、食糖等为主要原料，加入适量食品添加剂，经混合、灭菌、均质、老化、凝冻、硬化等工艺制成的体积膨胀的冷冻饮品。</p>
+                        </div>
+                        <div class="col-md-5">
+                            <img class="feature-image img-responsive" src="images/冰.jpg"
+                                 alt="Safari">
+                        </div>
+                    </div>
+                </div>
+
+                <div role="tabpanel" class="tab-pane" id="tab-ie">
+                    <div class="row feature">
+                        <div class="col-md-7">
+
+                            <h2 class="feature-heading">昆明 <span class="text-muted">最想去旅游的地方</span></h2>
+
+                            <p class="lead">昆明市是灵秀而迷人的，它三面环山，南濒滇池，湖光山色，天然成趣。滇池是云南省最大的高原湖泊，全国第六大淡水湖泊，沿湖两岸风光绮丽。由于地处低纬高原而形成“四季如春”的气候，特别是有高原湖泊滇池在调节着温湿度，使这里空气清新、天高云淡、阳光明媚、鲜花常开。</p>
+                        </div>
+                        <div class="col-md-5">
+                            <img class="feature-image img-responsive" src="images/kun.jpg"
+                                 alt="IE">
+                        </div>
+                    </div>
+                </div>
+        </div>
+     </div>
+   </div>
+<!--tab部分结束-->
+<!--footer-->
+   <footer id="footer">
+      <div class="footer-all">
+           <div class="left">
+              <em >@ 2003-2016 Xiao.com 版权所有</em>
+               <p class="email">邮箱：1418346401@qq.com</p>
+              <p class="qq">QQ：1418346401</p>
+
+           </div>
+          <div class="mid">
+             <p><a> 国际联网备案</a></p>
+              <p><a>不良信息举报信箱:####</a></p>
+              <p><a>文明办网举报电话:000000</a></p>
+          </div>
+          <div class="right">
+              <img src="images/二维码.png">
+              <p class="more">想了解小相册</p>
+              <p class="er">请扫二维码下载APP</p>
+          </div>
+      </div>
+   </footer>
+
+<!--footer结束-->
+
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
